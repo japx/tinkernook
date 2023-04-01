@@ -32,3 +32,6 @@ $sql = 'INSERT INTO users(name, email, status) VALUES(:name, :email, :status)';
 $stmt = $pdo->prepare($sql);
 $stmt->execute(['name' => $name, 'email' => $email, 'status' => $status]);
 echo 'User Added';
+
+
+echo "this is a test";
