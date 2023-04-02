@@ -7,7 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Welcom</h2>
+    <h2>Welcome</h2>
+    <?= APPROOT; ?>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum accusantium necessitatibus quidem eius placeat, dolorem dolorum! Libero doloremque corporis, nulla consequatur, eius quaerat dolorem architecto, necessitatibus in blanditiis reiciendis amet.</p>
 </body>
 </html>

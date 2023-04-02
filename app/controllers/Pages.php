@@ -1,11 +1,6 @@
 <?php
 
-/*
-* App Core Class
-* Creates URL & loads core controller
-* URL FORMAT - /controller/method/params
-*/
-
+// Load the model and the view
 class Pages extends Controller{ 
     public function __construct(){
         
