@@ -2,7 +2,7 @@
 // Load the model and the view
 
 class Controller {
-    public function model(){
+    public function model($model){
         // Require model file
         require_once '../app/models/' . $model . '.php';
         // Instantiate model
