@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>Welcome</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum accusantium necessitatibus quidem eius placeat, dolorem dolorum! Libero doloremque corporis, nulla consequatur, eius quaerat dolorem architecto, necessitatibus in blanditiis reiciendis amet.</p>
-    <ul>
-    <?php foreach($data['users'] as $user): ?> 
-        <li><?php echo $user->username; ?></li>
-    <?php endforeach; ?>
-    </ul>
-</body>
-</html>
+<?php require APPROOT . '/views/includes/header.php'; ?>
+<?php require APPROOT . '/views/includes/navigation.php'; ?>
+<div class="container">
+  <div class="jumbotron jumbotron-flud text-center">
+    <div class="container">
+      <h1 class="display-3">BSANHS</h1>
+      <p class="lead">School Information System</p>
+    </div>
+  </div>
+</div>
+<?php require APPROOT . '/views/includes/footer.php'; ?>
